@@ -19,7 +19,7 @@ spec:
     script: |
       #!/usr/bin/env bash
       set -e
-      yum update -y && yum install jq -y
+      #yum update -y && yum install jq -y
       echo HEADER
       echo "------"
       echo $HEADER | jq .
